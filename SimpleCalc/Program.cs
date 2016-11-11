@@ -8,14 +8,11 @@ namespace SimpleCalc
     {
         static void Main(string[] args)
         {
-             
-            Equation ex = new SimpleCalc.Equation(10);
-            ex.Add(10).Multiply(5).Div(2);
+            var r = Math.BigMul(1, 2) + 2;
 
-            Console.WriteLine(ex.Solve());
+            Console.WriteLine(r);
 
-
-            Console.WriteLine(10 + 10 * 5 / 2);
+            Console.WriteLine(EquationV2.Compute("BigMul(1,2)+2"));
 
             Console.ReadKey();
         }
