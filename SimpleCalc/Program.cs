@@ -14,7 +14,6 @@ namespace SimpleCalc
 
             Console.WriteLine(ex.Solve());
 
-            20 * 5 = 100 = 50
 
             Console.WriteLine(10 + 10 * 5 / 2);
 
